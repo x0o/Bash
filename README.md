@@ -1,6 +1,6 @@
 #$Bash Stuff
 
-###I needs dis
+##Files
 ####main.bash
 Always start with main >8P
 
