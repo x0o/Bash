@@ -15,11 +15,15 @@
 main() {
 #TODO,
   #BEGIN func1   
-  func1 || err
+  func1 || err "@ERROR: func1"
 
-#TODO,
-  #BEGIN func2    
-  func2
+#HACK,
+  #BEGIN count
+  set -x
+  for i in {1..10}; do
+    echo $i || err "@ERROR: An error occurred at ${i}"
+  done
+  set +x
 }
 
 main "$@"
