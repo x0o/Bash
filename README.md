@@ -1,7 +1,15 @@
-# Bash-Scripts
+#$Bash Stuff
 
-Here is a repository for small, handy bash scripts I use every now and then.
+###I needs dis
+####main.bash
+Always start with main >8P
 
-getip.sh
--------
-Retrive the public IP of the Linux box.
+##Libraries
+####Bash/libs/errlib.bash
+For debugging
+
+####Bash/libs/lib.bash
+Main library of functions
+
+####Bash/libs/libdev.bash
+Testing functions
