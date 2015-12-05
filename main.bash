@@ -15,7 +15,7 @@
 main() {
 #TODO,
   #BEGIN func1   
-  func1 || err "@ERROR: func1"
+  func1 2>/dev/null || err "@ERROR: func1"
 
 #HACK,
   #BEGIN count
