@@ -1,15 +1,16 @@
-#$Bash Stuff
+#Bash Stuff
 
 ##Files
 ####main.bash
-Always start with main >8P
+Always start with main.sh.
+Set `_DEBUG="on"` or `_DEBUG="off"` as and when required.
 
-##Libraries
-####Bash/libs/errlib.bash
-For debugging
+##Library Files
+####Bash/libs/errlib.sh
+Catch errors and debug.
 
-####Bash/libs/lib.bash
-Main library of functions
+####Bash/libs/devlib.sh
+Prototyping functions.
 
-####Bash/libs/libdev.bash
-Testing functions
+####Bash/libs/lib.sh
+Main functions library
