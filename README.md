@@ -1,16 +1,16 @@
-#Bash Stuff
+# Bash template
 
-##Files
-####main.bash
+### main.bash
 Always start with main.sh.
+
 Set `_DEBUG="on"` or `_DEBUG="off"` as and when required.
 
-##Library Files
-####Bash/libs/errlib.sh
+## Library Files
+#### Bash/libs/errlib.sh
 Catch errors and debug.
 
-####Bash/libs/devlib.sh
+#### Bash/libs/devlib.sh
 Prototyping functions.
 
-####Bash/libs/lib.sh
+#### Bash/libs/lib.sh
 Main functions library
